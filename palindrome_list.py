@@ -64,7 +64,3 @@ class Palindrome:
             if letter != item:
                 return False
         return True
-
-palindrome = Palindrome()
-palindrome.find_palindromes("base.lst", "palindrome_uk.txt")
-palindrome.find_palindromes("words.txt", "palindrome_en.txt")
